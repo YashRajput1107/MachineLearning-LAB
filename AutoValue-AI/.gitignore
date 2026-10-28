@@ -1,0 +1,28 @@
+# Dataset (download with: python -m src.download_data)
+data/raw/
+
+# Trained model artifacts (regenerate with: python -m src.train)
+models/*
+!models/.gitkeep
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Intermediate report build
+Project_Report.html
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

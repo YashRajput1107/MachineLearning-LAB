@@ -1,0 +1,28 @@
+# Raw dataset (download with the instructions in the README)
+data/raw/
+
+# Generated model artifacts
+models/
+
+# Virtual environments (recreate from requirements.txt - never commit)
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables (never commit real secrets)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Intermediate report build
+Project_Report.html
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

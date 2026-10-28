@@ -1,0 +1,37 @@
+# Virtual environments
+**/.venv/
+.venv/
+venv/
+env/
+ENV/
+
+# Trained model artifacts (regenerate with each project's train script);
+# folder placeholders are kept
+**/models/*
+!**/models/.gitkeep
+
+# Raw / large datasets (download per each project's README)
+**/data/raw/
+
+# Environment variables / credentials (never commit)
+.env
+**/.env
+*.pem
+*.key
+
+# Intermediate report build
+**/Project_Report.html
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.pytest_cache/
+**/.pytest_cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
